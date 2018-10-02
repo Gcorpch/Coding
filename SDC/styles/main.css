@@ -1,0 +1,157 @@
+﻿body {
+    background-color:ghostwhite;
+}
+
+header{
+    background-color:whitesmoke;
+    margin-bottom: 2px;
+    padding-bottom:20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+header #logo{
+    width: 960px;
+    height: 200px;
+    
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color:ghostwhite;
+}
+
+.nav_menu{
+    list-style:none;
+    margin: 1px;
+    padding: 0;
+}
+
+.nav_menu li{
+    min-width: 8em;
+    float: left;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    text-align:center;
+}
+
+.nav_menu li a:link,
+.nav_menu li a:visited{
+    background-color: darkgrey;
+    display:block;
+    padding:0.2em;
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+    margin:0 0 0 0.2em 0;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px 1px rgba(43, 43, 77, 0.5);
+}
+
+.nav_menu li a:hover{
+    background-color:aquamarine;
+    -webkit-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);
+}
+
+.nav_menu a {
+    display:block;
+    width:80px;
+}
+.clear{
+    clear:both;
+}
+/*
+#main_body{
+    background-color:azure;
+}*/
+
+#welcome{
+    background-color:azure;
+    float:left;
+    width: 94%;
+    margin-right: 10px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top:5px;
+    box-shadow: 10px 10px 5px #888888;
+}
+/*#news{
+    background-color:azure;
+    float:left;
+    padding:15px;
+    width:20%;
+    margin-bottom:30px;
+    margin-top:5px;
+    box-shadow: 10px 10px 5px #888888;
+}
+*/
+#leftdiv{
+    background-color:azure;
+    float:left;
+    padding:15px;
+    height:auto;
+    width:55%;
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:20px;
+    margin-bottom:20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#rightdiv{
+    background-color:azure;
+    float:right;
+    padding:15px;
+    height:200px;
+    width:30%;
+    margin:20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+footer{
+    height:50px;
+    background-color:black;
+    color:white;
+    text-align:right;
+    padding:10px;
+    padding-top:15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.form_input, input, select{
+	margin:5px;
+	padding:5px;
+	float:left;
+	background-color: #99999;
+}
+.form_input2{
+	margin:5px;
+	padding:5px;
+	float:right;
+	background-color: #99999;
+}
+.error{
+	width: 92%;
+	margin:0px auto;
+	padding:10px;
+	border: 1px solid #a94442;
+	color:a94442;
+	background:#f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
+
+button{
+	background-color: darkgrey;
+	color:white;
+}
+
+#msg button{
+	float: left relative;
+	margin:5px;
+	padding:5px;
+}
